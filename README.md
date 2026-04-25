@@ -208,10 +208,9 @@ This resolved all 34,565 chromosome errors resulting in **0 annotation errors**.
 
 ## Environment
 - OS: Windows 11 with WSL (Ubuntu)
-- Conda Environment 1: ngs_analysis — BWA, SAMtools, bcftools, SnpEff, FastQC
-- Conda Environment 2: trimming_env — fastp
-- SRA Toolkit: installed separately
-
+- Conda Environment 1: trimming_env — fastp, BWA, SAMtools, SRA Toolkit
+- Conda Environment 2: ngs_analysis — bcftools, SnpEff, IGV
+- FastQC — installed separately on Windows (D drive)
 ---
 
 ## Acknowledgements
