@@ -103,7 +103,7 @@ bcftools call -mv -o variants.vcf raw.bcf
 
 ### Step 8 — Variant Filtering
 ```bash
-bcftools filter -s PASS variants.vcf -o filtered.vcf
+bcftools filter -i 'QUAL>30 && DP>10' variants.vcf -o filtered.vcf
 ```
 
 ### Step 9 — Build Custom SnpEff Database
